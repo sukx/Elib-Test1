@@ -81,3 +81,10 @@ class BaseAction:
         except NoSuchElementException as e:
             return True
         return False
+
+    def test(self):
+        """
+        测试的，可随时删除
+        :return:
+        """
+        pass
